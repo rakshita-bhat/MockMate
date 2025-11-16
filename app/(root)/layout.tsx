@@ -12,7 +12,7 @@ const RootLayout = ({children} : {children: ReactNode}) => {
         </Link>
         
       </nav>     
-      
+      {children}
     </div>
   )
 }
